@@ -1,0 +1,16 @@
+body{
+  background-color: azure;
+}
+
+p {
+  color: #808;
+}
+
+.textonaranja {
+  color: #f90;
+}
+
+button {
+  background-color: aqua;
+  border-radius: 10px;
+}
