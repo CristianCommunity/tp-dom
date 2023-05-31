@@ -1,0 +1,16 @@
+body{
+    font-family: tahoma, verdana;
+    background-color: aliceblue;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mi Calculadora</title>
+  </head>
+  <body>
+    <h1>Ejercicio 3</h1>
+    <h4>Calculadora</h4>
+    <main>
+      <div class="formulario">
+        <form action="" id="mi-formulario" method="get">
+          <label>Numero 1: </label>
+          <input type="number" id="valor-1" autofocus placeholder="Ingrese un número"/>
+          <button onclick="limpiar()">Limpiar Pantalla</button>
+          <br />
+          <br />
+          <label>Numero 2: </label>
+          <input type="number" id="valor-2" placeholder="Ingrese otro número" />
+          <br />
+          <br />
+          <label>Seleccione la Operación</label>
+          <select
+            name="select"
+            id="select-op"
+            onchange="seleccionaroperacion()"
+          >
+            <option value="Suma">Suma</option>
+            <option value="Resta">Resta</option>
+            <option value="Multiplicación">Multiplicación</option>
+            <option value="División">División</option>
+          </select>
+          <br />
+          <br />
+          <button id="calcular" type="button">Calcular</button>
+          <br />
+          <br />
+          <p>El resultado es: <span id="el-resultado"></span></p>
+        </form>
+      </div>
+    </main>
+    <script src="main.js">
+      
+    </script>
+  </body>
+</html>
